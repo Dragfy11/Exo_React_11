@@ -25,8 +25,10 @@ class App extends Component {
     let color1 = nbr.classList.toggle('red');
     if(color1){
       e.target.textContent = 'noir';
+      e.target.style.backgroundColor= "black";
     }else {
       e.target.textContent = 'rouge';
+      e.target.style.backgroundColor= "red";
     };
   };
 
